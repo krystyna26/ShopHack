@@ -19,6 +19,7 @@
 		104B41B11FBCFF37000C9AB8 /* ShoppingList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104B41AF1FBCFF37000C9AB8 /* ShoppingList.storyboard */; };
 		104B41B41FBCFFA8000C9AB8 /* StoreList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104B41B31FBCFFA8000C9AB8 /* StoreList.storyboard */; };
 		104B41B81FBD0037000C9AB8 /* ProductDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104B41B61FBD0037000C9AB8 /* ProductDetails.storyboard */; };
+		65CD1F6E1FBE1B950040829B /* StoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CD1F6D1FBE1B950040829B /* StoreCell.swift */; };
 		EA9044C71FBD2E3F00794F9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9044C51FBD2E3E00794F9B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		104B41B01FBCFF37000C9AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ShopShopShop/Base.lproj/ShoppingList.storyboard; sourceTree = "<group>"; };
 		104B41B31FBCFFA8000C9AB8 /* StoreList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoreList.storyboard; sourceTree = "<group>"; };
 		104B41B71FBD0037000C9AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ShopShopShop/Base.lproj/ProductDetails.storyboard; sourceTree = "<group>"; };
+		65CD1F6D1FBE1B950040829B /* StoreCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreCell.swift; sourceTree = "<group>"; };
 		EA9044C61FBD2E3F00794F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ShopShopShop/MakeList/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,7 @@
 			children = (
 				104B41A91FBCFDEE000C9AB8 /* StoreListVC.swift */,
 				104B41B31FBCFFA8000C9AB8 /* StoreList.storyboard */,
+				65CD1F6D1FBE1B950040829B /* StoreCell.swift */,
 			);
 			path = StoreList;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				104B41971FBCFD2E000C9AB8 /* MakeListVC.swift in Sources */,
 				104B41AE1FBCFEE5000C9AB8 /* ProductDetailsVC.swift in Sources */,
 				104B41AC1FBCFE82000C9AB8 /* ShoppingListVC.swift in Sources */,
+				65CD1F6E1FBE1B950040829B /* StoreCell.swift in Sources */,
 				104B41951FBCFD2E000C9AB8 /* AppDelegate.swift in Sources */,
 				104B41AA1FBCFDEE000C9AB8 /* StoreListVC.swift in Sources */,
 				104B419D1FBCFD2E000C9AB8 /* ShopShopShop.xcdatamodeld in Sources */,
