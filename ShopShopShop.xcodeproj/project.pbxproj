@@ -19,6 +19,7 @@
 		104B41B11FBCFF37000C9AB8 /* ShoppingList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104B41AF1FBCFF37000C9AB8 /* ShoppingList.storyboard */; };
 		104B41B41FBCFFA8000C9AB8 /* StoreList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104B41B31FBCFFA8000C9AB8 /* StoreList.storyboard */; };
 		104B41B81FBD0037000C9AB8 /* ProductDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104B41B61FBD0037000C9AB8 /* ProductDetails.storyboard */; };
+		EA9044C71FBD2E3F00794F9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9044C51FBD2E3E00794F9B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		104B41B01FBCFF37000C9AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ShopShopShop/Base.lproj/ShoppingList.storyboard; sourceTree = "<group>"; };
 		104B41B31FBCFFA8000C9AB8 /* StoreList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoreList.storyboard; sourceTree = "<group>"; };
 		104B41B71FBD0037000C9AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ShopShopShop/Base.lproj/ProductDetails.storyboard; sourceTree = "<group>"; };
+		EA9044C61FBD2E3F00794F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ShopShopShop/MakeList/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		104B41881FBCFD2E000C9AB8 = {
 			isa = PBXGroup;
 			children = (
+				EA9044C51FBD2E3E00794F9B /* Main.storyboard */,
 				104B41931FBCFD2E000C9AB8 /* ShopShopShop */,
 				104B41921FBCFD2E000C9AB8 /* Products */,
 			);
@@ -176,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9044C71FBD2E3F00794F9B /* Main.storyboard in Resources */,
 				104B41B11FBCFF37000C9AB8 /* ShoppingList.storyboard in Resources */,
 				104B41A21FBCFD2E000C9AB8 /* LaunchScreen.storyboard in Resources */,
 				104B419F1FBCFD2E000C9AB8 /* Assets.xcassets in Resources */,
@@ -234,6 +238,14 @@
 				104B41B71FBD0037000C9AB8 /* Base */,
 			);
 			name = ProductDetails.storyboard;
+			sourceTree = "<group>";
+		};
+		EA9044C51FBD2E3E00794F9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9044C61FBD2E3F00794F9B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
