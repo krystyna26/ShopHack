@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6uK-dv-PQz">
-                                <rect key="frame" x="0.0" y="20" width="375" height="593"/>
+                                <rect key="frame" x="0.0" y="82" width="375" height="531"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="listItemsTableViewCell" id="seL-vj-JhM">
@@ -28,25 +28,9 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="seL-vj-JhM" id="mmD-c1-AG3">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2t1-LO-ciY">
-                                                    <rect key="frame" x="322" y="6" width="30" height="30"/>
-                                                    <state key="normal" title="Add"/>
-                                                </button>
-                                                <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="add an item" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Dy-kh-fTo">
-                                                    <rect key="frame" x="15" y="6" width="281" height="30"/>
-                                                    <color key="textColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
-                                                </textField>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="2t1-LO-ciY" secondAttribute="trailing" constant="23" id="3TQ-V0-16y"/>
-                                                <constraint firstAttribute="bottom" secondItem="2t1-LO-ciY" secondAttribute="bottom" constant="7.5" id="P6q-yc-jtF"/>
-                                                <constraint firstItem="9Dy-kh-fTo" firstAttribute="leading" secondItem="mmD-c1-AG3" secondAttribute="leading" constant="15" id="Zrp-ch-uqk"/>
-                                                <constraint firstAttribute="bottom" secondItem="9Dy-kh-fTo" secondAttribute="bottom" constant="7.5" id="bpl-0S-BN8"/>
-                                            </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.1207543905" green="0.76456363780000003" blue="0.9610564721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.096083699910000001" green="0.63297198789999998" blue="0.79929409900000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -59,29 +43,35 @@
                                     <color key="titleColor" red="0.096083699910000001" green="0.63297198789999998" blue="0.79929409900000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="add item" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="9Dy-kh-fTo">
+                                <rect key="frame" x="16" y="36" width="281" height="30"/>
+                                <color key="backgroundColor" red="0.91094939720000001" green="0.91094939720000001" blue="0.91094939720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqJ-KL-KYo">
+                                <rect key="frame" x="329" y="36" width="30" height="30"/>
+                                <state key="normal" title="Add"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="nqJ-KL-KYo" firstAttribute="centerY" secondItem="9Dy-kh-fTo" secondAttribute="centerY" id="6JW-tr-1mi"/>
                             <constraint firstItem="6uK-dv-PQz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BS0-Ea-zzn"/>
-                            <constraint firstItem="6uK-dv-PQz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MU2-AI-BzS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nqJ-KL-KYo" secondAttribute="trailing" constant="16" id="OcZ-Ie-grU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jd0-hE-dLI" secondAttribute="bottom" constant="4" id="Pdp-d3-MUm"/>
+                            <constraint firstItem="nqJ-KL-KYo" firstAttribute="leading" secondItem="9Dy-kh-fTo" secondAttribute="trailing" constant="32" id="UbR-a8-Ybf"/>
+                            <constraint firstItem="9Dy-kh-fTo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="XXz-8y-NcS"/>
+                            <constraint firstItem="6uK-dv-PQz" firstAttribute="top" secondItem="9Dy-kh-fTo" secondAttribute="bottom" constant="16" id="dnj-uS-u3R"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6uK-dv-PQz" secondAttribute="trailing" id="erg-c9-ntJ"/>
                             <constraint firstItem="jd0-hE-dLI" firstAttribute="top" secondItem="6uK-dv-PQz" secondAttribute="bottom" id="g0j-rq-uHp"/>
                             <constraint firstItem="jd0-hE-dLI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="233" id="p9n-Ax-UxM"/>
+                            <constraint firstItem="nqJ-KL-KYo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="sKU-9M-7HZ"/>
+                            <constraint firstItem="9Dy-kh-fTo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="wQm-5S-war"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="NCQ-4R-Oo8">
-                        <nil key="title"/>
-                        <textField key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="9HQ-1y-lqD">
-                            <rect key="frame" x="11.5" y="7" width="319" height="30"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="textColor" red="0.85344622461928932" green="0.85344622461928932" blue="0.85344622461928932" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                            <textInputTraits key="textInputTraits"/>
-                        </textField>
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="OLI-ix-njD"/>
-                    </navigationItem>
                     <connections>
                         <segue destination="0mf-rl-l1E" kind="show" identifier="StoreListSegue" id="FsG-29-EAj"/>
                     </connections>
